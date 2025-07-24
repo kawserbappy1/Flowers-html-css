@@ -70,14 +70,14 @@ p {
 }
 .btn {
   display: inline-block;
-  padding: 16px 45px;
+  padding: 15px 45px;
   background-color: var(--primary-color);
-  color: var(--black-color);
-  font-size: 16px;
+  color: var(--white-color);
+  font-size: 15px;
   border: 0;
-  border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+  transform: translateY(-3px);
 }
 
 .section-title {
@@ -314,3 +314,30 @@ nav {
 }
 
 /* <!-- DEALS AREAA END  --> */
+
+/*  NEWSLETTER AREA START*/
+.newsletter {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../img/news-letter-bg.png");
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.newletter-box {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 200px 0;
+}
+.newletter-box h2 {
+  color: var(--white-color);
+  margin-bottom: 30px;
+}
+.newletter-box input {
+  width: 50%;
+  background: var(--color-white);
+  padding: 10px;
+  margin-right: -6px;
+}
+/*NEWSLETTER AREA END   */
