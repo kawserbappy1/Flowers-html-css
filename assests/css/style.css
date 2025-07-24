@@ -1,0 +1,85 @@
+/* google fonts here  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Common css style sheet Start  */
+:root {
+  --body-font: "Inter", sans-serif;
+  --heading-font: "Noto Serif", serif;
+  --primary-color: #e95a08;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --black-color-1: #222;
+  --body-font-color: rgba(0, 0, 0, 0.5);
+  --link-active-color: #252432;
+  --normal-link-color: #8987a1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  font-family: var(--body-font);
+  font-size: 22px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-family: var(--heading-font);
+}
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 50px;
+  color: var(--black-color);
+}
+h3 {
+  font-size: 40px;
+  color: var(--white-color);
+}
+h4 {
+  font-size: 22px;
+  color: var(--black-color);
+}
+h5 {
+  font-size: 20px;
+  color: var(--white-color);
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+.btn {
+  display: inline-block;
+  padding: 16px 45px;
+  background-color: var(--primary-color);
+  color: var(--black-color);
+  font-size: 16px;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #eef150;
+}
+.section-title {
+  padding: 100px 0;
+}
