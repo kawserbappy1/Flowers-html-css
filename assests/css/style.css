@@ -87,6 +87,9 @@ p {
 .section-title h2 span {
   color: var(--primary-color);
 }
+.section-title p {
+  color: var(--body-font-color);
+}
 /* HEADER AREA START  */
 nav {
   display: flex;
@@ -146,8 +149,16 @@ nav {
 .banner-left p br {
   display: none;
 }
+.banner-left p {
+  color: var(--body-font-color);
+  width: 556px;
+  margin-top: 20px;
+}
 /* BANNER AREA START  */
 /* PLANT AREA START  */
+.plant-area {
+  padding-bottom: 100px;
+}
 .plant-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -187,3 +198,47 @@ nav {
   font-size: 16px;
 }
 /* PLANT AREA END  */
+/* PLANT SELLER AREA START  */
+.plant-seller {
+  padding: 100px 0;
+}
+.plant-seller-wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+.plant-seller-img img {
+  width: 100%;
+}
+.plant-seller-right {
+  margin-left: 60px;
+}
+.plant-seller-content h2 {
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+.plant-seller-content p {
+  margin-bottom: 25px;
+  margin-left: 30px;
+  color: var(--body-font-color);
+  position: relative;
+  padding-right: 280px;
+}
+.plant-seller-content p::before {
+  content: " ";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: var(--body-font-color);
+  top: 9px;
+  left: -25px;
+  border-radius: 50%;
+}
+.trusted {
+  width: 35%;
+  position: absolute;
+  top: -100px;
+  right: -100px;
+}
+/* PLANT SELLER AREA START  */
